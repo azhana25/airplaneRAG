@@ -68,7 +68,7 @@ def process_query(query):
     return top_products_with_metadata
 
 # Streamlit app layout
-st.title("Query Input App")
+st.title("Please enter the query you'd like to know about finding your space craft.")
 
 # Prompt user for input
 query = st.text_input("Enter your query:")
